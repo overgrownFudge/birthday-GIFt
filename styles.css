@@ -10,10 +10,10 @@ h1, h2, h3, h4, p {
 }
 
 #bff-img {
-    width: 150px;
     border-radius: 50%;
     border: 6px solid #EFB0C9;
     margin-bottom: 10px;
+    object-fit: cover;
 }
 
 #bday-age {
@@ -75,7 +75,7 @@ h1, h2, h3, h4, p {
 }
 
 #gift-img-badass:hover {
-    background-image: url("images/badass.gif");
+    background-image: url("images/hero.gif");
 }
 
 #gift-img-cheers:hover {
